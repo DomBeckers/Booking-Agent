@@ -2,7 +2,7 @@ import { createServer } from "http";
 import { parse } from "url";
 import next from "next";
 import { WebSocketServer } from "ws";
-import { statusEmitter } from "./src/lib/ws/status-emitter";
+import { statusEmitter } from "./src/lib/agent/status-emitter";
 
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });

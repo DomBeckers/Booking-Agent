@@ -17,7 +17,7 @@ import {
 } from "@/lib/payments/spending-guard";
 import { getPaymentForPlatform } from "@/lib/payments/payment-router";
 import { sendBookingConfirmation } from "@/lib/notifications/email";
-import { statusEmitter } from "@/lib/ws/status-emitter";
+import { statusEmitter } from "./status-emitter";
 import type { Platform, AgentStatus } from "@/types";
 import type { BrowserContext } from "playwright";
 

@@ -2,10 +2,10 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { useWebSocket } from "@/hooks/use-websocket";
-import { StatusFeed } from "@/components/dashboard/status-feed";
-import { AgentControls } from "@/components/dashboard/agent-controls";
-import { ActiveWatches } from "@/components/dashboard/active-watches";
-import { SpendingSummary } from "@/components/dashboard/spending-summary";
+import { StatusFeed } from "./_components/status-feed";
+import { AgentControls } from "./_components/agent-controls";
+import { ActiveWatches } from "./_components/active-watches";
+import { SpendingSummary } from "./_components/spending-summary";
 
 interface AgentInfo {
   status: "running" | "paused" | "stopped";
